@@ -5,6 +5,17 @@
 [![Jupyter][skill-jupyter-shield]][skill-jupyter-url]
 [![Tensorflow][skill-tensorflow-shield]][skill-tensorflow-url]
 
+
+<!-- TOC -->
+* [Machine Learning Techniques (Proyecto Final)](#machine-learning-techniques--proyecto-final-)
+  * [Acerca del proyecto](#acerca-del-proyecto)
+  * [Organización del Proyecto](#organizacin-del-proyecto)
+  * [Construyendo el dataset](#construyendo-el-dataset)
+  * [Entrenando el modelo](#entrenando-el-modelo)
+  * [Usando el modelo](#usando-el-modelo)
+  * [Demo](#demo)
+<!-- TOC -->
+
 <!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto
 
