@@ -48,6 +48,16 @@ Como resultado deberá obtener la siguiente estructura de carpeta.
     ├── model.ipynb                         <- contains the definition and versions of the libraries used by the application.
     └── readme.md                           <- The top-level README for developers using this project.
 
+## Pre-requisitos
+
+El proyecto tiene ciertas precondiciones que tienen que satisfacerse para poder ejecutarlo. En el archivo `requirements.txt`
+se encuentran aquellas librerias que tienen que instalarse en el ambiente, y pueden ser instaladas ejecutando 
+el siguiente comando en la raíz del proyecto:
+
+``` bash
+$ pip install -r requirements.txt
+```
+
 ## Construyendo el dataset
 
 ## Entrenando el modelo
