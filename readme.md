@@ -1,11 +1,9 @@
 # Machine Learning Techniques (Proyecto Final)
 
 <!-- TABLE OF HEADER -->
-[![Python][skill-java-shield]][skill-java-url]
-[![Jupyter][skill-spring-shield]][skill-spring-url]
-[![Tensorflow][skill-springdoc-shield]][skill-springdoc-url]
-[![Keras][skill-lombok-shield]][skill-lombok-url]
-
+[![Python][skill-python-shield]][skill-python-url]
+[![Jupyter][skill-jupyter-shield]][skill-jupyter-url]
+[![Tensorflow][skill-tensorflow-shield]][skill-tensorflow-url]
 
 <!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto
@@ -38,7 +36,9 @@ Con este fin se construyen diferentes modelos dentro de los cuales el de mejor d
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://shields.io/ -->
-[skill-java-shield]: https://img.shields.io/badge/JAVA-17-blue
-[skill-java-url]: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
-[skill-spring-shield]: https://img.shields.io/badge/Spring%20Boot-2.6.3-blue
-[skill-springdoc-shield]: https://img.shields.io/badge/SpringDoc-1.6.6-blue
+[skill-python-shield]: https://img.shields.io/badge/Python-3.9-blue
+[skill-python-url]: https://www.python.org/
+[skill-jupyter-shield]: https://img.shields.io/badge/Jupyter-6.4.8-blue
+[skill-jupyter-url]: https://jupyter.org/
+[skill-tensorflow-shield]: https://img.shields.io/badge/TensorFlow-2.9.1-blue
+[skill-tensorflow-url]: https://www.tensorflow.org/?hl=es-419
