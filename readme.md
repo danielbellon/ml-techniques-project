@@ -14,6 +14,17 @@ Con este fin se construyen diferentes modelos dentro de los cuales el de mejor d
 
 ## Organización del Proyecto
 
+> ⚠️ Antes de clonar el proyecto es importante tener instalado [Git LFS](https://git-lfs.github.com/), asegúrese de
+> haber
+> ejecutado `git lfs install`
+
+```bash
+$ git clone git@github.com:danielbellon/ml-techniques-project.git
+``` 
+
+Para descargar el proyecto en su equipo lo puede hacer por medio del siguiente comando que clona el proyecto en git.
+Como resultado deberá obtener la siguiente estructura de carpeta.
+
     ├── annotations                         <- contains the setup and config classes.
     │   ├── extraDigitStruct.json           <- contains the setup and config classes.
     │   ├── testDigitStruct.json            <- contains the setup and config classes.                 
