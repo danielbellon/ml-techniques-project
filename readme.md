@@ -93,6 +93,13 @@ obteniendo como resultado los siguientes archivos:
 
 ## Entrenando el modelo
 
+Para realizar el entrenamiento se debe usar el notebook [ptmodel7_1digit_with_bbox.ipynb](ptmodel7_1digit_with_bbox.ipynb)
+obteniendo como resultado los siguientes archivos:
+
+    ├── models                              <- Carpeta con los vectores de entrenamiento
+    │   ├── ptmodel7_1digit_with_bbox                     
+    │   │   ├── model.h5  
+
 ## Usando el modelo
 
 ## Demo
