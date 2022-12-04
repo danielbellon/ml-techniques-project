@@ -105,3 +105,7 @@ obteniendo como resultado los siguientes archivos:
 [skill-jupyter-url]: https://jupyter.org/
 [skill-tensorflow-shield]: https://img.shields.io/badge/TensorFlow-2.9.1-blue
 [skill-tensorflow-url]: https://www.tensorflow.org/?hl=es-419
+[skill-keras-shield]: https://img.shields.io/badge/Keras-2.9.0-blue
+[skill-keras-url]: https://keras.io/getting_started/
+[skill-scikit-learn-shield]: https://img.shields.io/badge/SciKit_Learn-1.1.3-blue
+[skill-scikit-learn-url]: https://scikit-learn.org/stable/install.html
