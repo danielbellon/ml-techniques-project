@@ -50,21 +50,20 @@ $ git clone git@github.com:danielbellon/ml-techniques-project.git
 Para descargar el proyecto en su equipo lo puede hacer por medio del siguiente comando que clona el proyecto en git.
 Como resultado deberá obtener la siguiente estructura de carpeta.
 
-    ├── annotations                         <- contains the setup and config classes.
-    │   ├── extraDigitStruct.json           <- contains the setup and config classes.
-    │   ├── testDigitStruct.json            <- contains the setup and config classes.                 
-    │   └── trainDigitStruct.json           <- contains the setup and config classes.
+    ├── annotations                         <- Etiquetas de cada uno de los datasets
+    │   ├── extraDigitStruct.json           
+    │   ├── testDigitStruct.json                            
+    │   └── trainDigitStruct.json           
     ├── .gitattributes
-    ├── .gitignore                          <- contains the implementation of the libraries defined in the settings.gradle
-    ├── exported_model.h5                   <- contains the definition and versions of the libraries used by the application.
-    ├── demo.ipynb                          <- contains the definition and versions of the libraries used by the application.
-    ├── pre_process_data.ipynb              <- contains the definition and versions of the libraries used by the application.
-    ├── model.ipynb                         <- contains the definition and versions of the libraries used by the application.
-    └── readme.md                           <- The top-level README for developers using this project.
+    ├── .gitignore                          
+    ├── exported_model.h5                   <- Modelo exportado
+    ├── pre_process_data.ipynb              <- Notebook para la construcción del dataset
+    ├── ptmodel7_1digit_with_bbox.ipynb     <- Notebook con el proceso de entrenamiento del mejor modelo obtenido
+    └── readme.md                           
 
-## Pre-requisitos
+## Pre-requisitos para Google Colab
 
-El proyecto tiene ciertas precondiciones que tienen que satisfacerse para poder ejecutarlo. En el
+El proyecto tiene ciertas precondiciones que tienen que satisfacerse si el entorno de ejecución es **Google Colab**. En el
 archivo `requirements.txt`
 se encuentran aquellas librerías que tienen que instalarse en el ambiente, y pueden ser instaladas ejecutando
 el siguiente comando en la raíz del proyecto:
@@ -77,7 +76,7 @@ $ pip install -r requirements.txt
 
 Inicialmente, el proyecto requiere de hacer un preprocesamiento de los datos para obtener un dataset óptimo para
 entrenar
-el modelo. Para esto no podemos apoyar ejecutando el notebook [pre_process_data.ipynb](pre_process_data.ipynb)
+el modelo. Para esto nos podemos apoyar ejecutando el notebook [pre_process_data.ipynb](pre_process_data.ipynb)
 obteniendo como resultado los siguientes archivos:
 
     ├── preprocessed_train                  <- Carpeta con los vectores de entrenamiento
@@ -96,13 +95,27 @@ obteniendo como resultado los siguientes archivos:
 Para realizar el entrenamiento se debe usar el notebook [ptmodel7_1digit_with_bbox.ipynb](ptmodel7_1digit_with_bbox.ipynb)
 obteniendo como resultado los siguientes archivos:
 
-    ├── models                              <- Carpeta con los vectores de entrenamiento
-    │   ├── ptmodel7_1digit_with_bbox                     
-    │   │   ├── model.h5  
+    ├── models                              <- Carpeta con los modelos entrenados
+    │   ├── ptmodel7_1digit_with_bbox
+    |   |   ├── best_model_ft.hdf5
+    |   |   ├── model.h5
+    |   |   ├── model_ft.h5
+    |   |   ├── model_ft_history.npy
+    |   |   ├── model_history.npy
+    |   |   └── plots
+    |   |       ├── accs.png
+    |   |       ├── confusion_matrix.png
+    |   |       ├── ft_accs.png
+    |   |       ├── ft_losses.png
+    |   |       └── losses.png
 
 ## Usando el modelo
 
-## Demo
+Para poder utilizar el modelo, se construyó una interfaz gráfica de usuario con **Gradio**, y dicha UI se montó en un 
+espacio de **Hugging Face** al que se puede acceder mediante el siguiente enlace: 
+https://huggingface.co/spaces/danielbellon/ml-techniques-project
+
+El código de la demostración también está alojado en **Hugging Face** (https://huggingface.co/spaces/danielbellon/ml-techniques-project/tree/main)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://shields.io/ -->
